@@ -307,7 +307,7 @@ public class DefaultHttpProxyServer implements HttpProxyServer {
 
     @Override
     public int getIdleConnectionTimeout() {
-        return (int) idleConnectionTimeout.toSeconds();
+        return (int) idleConnectionTimeout.getSeconds();
     }
 
     @Override
